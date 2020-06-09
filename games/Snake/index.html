@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styleMenu.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="containerMenu">
+            <div class="chamadaJogo">
+                <h2>Pong</h2>
+                <span>Escolha uma dificuldade para jogar!</span>
+                <div class="containerBnt">
+                    <button class="bntMenu" onclick="modofacil()">Fácil</button>
+                    <button class="bntMenu"onclick="modoNormal()">Normal</button>
+                    <button class="bntMenu" onclick="modoDificil()">Dificil</button>
+                    <canvas id="pong" width="396" height="400"></canvas>
+                    <div class="rodape">
+                        <p style="font-size:small;" class="item">&reg;Feito por Gabriel Aderaldo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/gameScript.js"></script>
+</body>
+</html>

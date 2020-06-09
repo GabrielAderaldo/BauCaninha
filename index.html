@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NobreCaninha</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="mainContainer">
+        <section class="banner" id="sec">
+            
+            
+            <header>
+                <a href="#" class="logo">Logo</a>
+                <div class="toggle" id="toggle" onclick=" toggle()"></div>
+            </header>
+
+            <div class="content">
+                <h2>Olá, seja bem vindo ao meu espaço...<span></span></h2>
+                <p>Aqui você podera encontrar um pouco de tudo, então aproveite e olhe a vontade...</p>
+               <!-- <a href="#">Link do meu gitHub</a>-->
+            </div>
+
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/escolinha.sousa.77"><img src="imagem/facebook.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/gabriel-vieira-aderaldo-4975aa148/"><img src="imagem/linkedin.png"></a></li>
+                <li><a href="#"><img src="imagem/twitter.png"></a></li>
+            </ul>
+
+
+
+            
+
+        </section>
+
+
+        <div id="navegation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">portifolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+ 
+
+
+    <script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navegation');
+
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+    </script>
+
+</body>
+</html>

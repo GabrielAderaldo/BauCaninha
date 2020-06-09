@@ -1,0 +1,39 @@
+.mainContainer{
+display: flex;
+justify-content: center;
+margin-top: 2%;
+}
+
+
+
+.containerMenu{
+    border: 2px groove black;
+    border-radius: 4%;
+    padding:2vh;
+    
+}
+.chamadaJogo {
+    font-size: 2em;
+
+}
+
+.chamadaJogo h2{
+    position: relative;
+    left: 35%;
+}
+.containerBnt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.containerBnt .bntMenu{
+    margin-top: 3em;
+}
+
+
+.rodape{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+}
